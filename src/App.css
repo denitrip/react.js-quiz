@@ -54,6 +54,7 @@ ul {
 
 button {
   width: 15vw;
+  min-width: 150px;
   background-color: #e7e7e7; /* Green */
   border: none;
   color: black;
@@ -62,6 +63,10 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  button {margin: 2px;}
 }
 
 @keyframes App-logo-spin {
